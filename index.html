@@ -18,7 +18,7 @@
     <meta property="og:description" content="Book affordable and cozy Airbnb staycation spots in Manila and Pasay, Philippines with CityStaycationTel.">
     <meta property="og:url" content="https://www.citystaycationtel.biz">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.citystaycationtel.biz/cover-image.jpg"> <!-- Replace with your real image link later -->
+    <meta property="og:image" content="https://www.citystaycationtel.biz/cover-image.jpg"> <!-- Replace with your real image link -->
 
     <!-- Import Poppins Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -30,10 +30,40 @@
             background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
             font-family: 'Poppins', sans-serif;
             color: #333;
-            text-align: center;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
-            padding-top:
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+        }
+
+        /* Make sure it looks good on smaller devices */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CityStaycationTel!</h1>
+    <p>Discover cozy and affordable staycation spots in Manila and Pasay. Book your perfect getaway today!</p>
+</body>
+</html>

@@ -3,5 +3,22 @@
   <url>
     <loc>https://www.citystaycationtel.biz/</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://airbnb.com.ph/h/radiancecitystaycationtel</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://airbnb.com.ph/h/seacitystaycationtel</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://airbnb.com.ph/h/shorecitystaycationtel</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
